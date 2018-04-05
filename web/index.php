@@ -1,5 +1,5 @@
 <?php require 'header.php';?>
-<body>
+<body class="container">
 <!-- banner -->
 <div class="banner" id="home">
 <div class="agileinfo-dot">

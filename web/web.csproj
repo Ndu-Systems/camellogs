@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -94,6 +95,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="footer.php" />
+    <Content Include="header.php" />
+    <Content Include="hoem.html" />
+    <Content Include="images\special1.jpg" />
+    <Content Include="images\special2.jpg" />
+    <Content Include="nav.php" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -166,7 +173,6 @@
     <Content Include="images\test3.jpg" />
     <Content Include="images\test4.jpg" />
     <Content Include="index.php" />
-    <Content Include="index.html" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\easing.js" />
     <Content Include="js\jquery-2.2.3.min.js" />
@@ -193,7 +199,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>4419</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
