@@ -95,6 +95,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="db\camellogsdb.sql" />
     <Content Include="footer.php" />
     <Content Include="header.php" />
     <Content Include="hoem.html" />

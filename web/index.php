@@ -1,9 +1,9 @@
 <?php require 'header.php';?>
-<body class="container">
+<body>
 <!-- banner -->
 <div class="banner" id="home">
 <div class="agileinfo-dot">
-<div class="container">
+<div>
 		<!-- header -->
 		<header>
 		<?php require 'nav.php';?>
@@ -61,14 +61,14 @@
 			<a href="#" class="hvr-ripple-out" data-toggle="modal" data-target="#myModal2">Book Now</a>
 			 </div>
 	</div>
-	<div class="col-md-4 banner_bottom_special2">
+	<div class="col-md-4 banner_bottom_special1">
 			 <h3 class="title-agileits-w3layouts white-w3ls">Specials Here</h3>
-			 <p class="para-w3l">Some exciting content here</p>
+			 <p class="para-w3l" style="color:"#2042b4">Some exciting content here</p>
 			 <div class="button-agileits">
 			<a href="#" class="hvr-ripple-out" data-toggle="modal" data-target="#myModal2">Book Now</a>
 			 </div>
 	</div>
-	<div class="col-md-4 banner_bottom_left">
+	<div class="col-md-4 banner_bottom_special1">
 			 <h3 class="title-agileits-w3layouts white-w3ls">Specials Here</h3>
 			 <p class="para-w3l">Some exciting content here</p>
 			 <div class="button-agileits">

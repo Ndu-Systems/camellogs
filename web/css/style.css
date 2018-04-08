@@ -61,7 +61,7 @@ header {
 .w3_navigation {
     border-top: none;
     position: relative;
-		background-color: #333;
+	background-color: #333;
 }
 .navbar-nav {
     float: right;
@@ -458,6 +458,15 @@ p.para-w3l {
     font-size: 17px;
     letter-spacing: 1px;
 }
+
+p.parab-w3l {
+    color: #2042b4;
+    line-height: 2.2em;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
 .about .para-w3l {
     margin: 2em 0 3em;
 }
@@ -474,6 +483,9 @@ h3.title-agileits-w3layouts {
 }
 .white-w3ls{
 	color:#fff!important;
+}
+.blue-w3ls {
+    color: #2042b4!important;
 }
 /*-- //main --*/
 /*-- about --*/
@@ -1776,6 +1788,9 @@ button.btn1:hover i.fa.fa-paper-plane-o{
 	p.para-w3l {
 		font-size: 15px;
 	}
+    p.parab-w3l {
+        font-size: 15px;
+    }
 	.about .para-w3l {
 		margin: 0.5em 0 1.5em;
 	}
